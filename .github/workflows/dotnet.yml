@@ -5,8 +5,7 @@ name: Deploy MSSQL to AKS
 on:
   push:
     branches: ["develop"]
-  workflow_dispatch:
-
+    
 jobs:
   deploy:
     permissions:
