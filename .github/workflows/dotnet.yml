@@ -4,7 +4,7 @@ name: Deploy MSSQL to AKS
 
 on:
   push:
-    branches: ["develop"]
+    branches: ["main"]
     
 jobs:
   deploy:
